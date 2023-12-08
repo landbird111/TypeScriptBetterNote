@@ -1,6 +1,7 @@
 /**
  * ==============================
  * 這個範例說明使用 Utility Types 來取代自己寫的類型，會更省力
+ * https://www.typescriptlang.org/docs/handbook/utility-types.html#handbook-content
  * ==============================
  */
 
@@ -30,7 +31,10 @@ function updateProductByJunior(productId: IProduct["id"], updateProduct: IUpdate
 
 // 但是使用 Partial<T> 會更方便
 // Omit是忽略某個屬性
-function updateProductBySenior(productId: IProduct["id"], updateProduct: Partial<Omit<IProduct, "id">>): void {
+function updateProductBySenior(
+    productId: IProduct["id"],
+    updateProduct: Partial<Omit<IProduct, "id">>
+): void {
     // ...
 }
 
@@ -59,4 +63,29 @@ colors.blue; // [0, 0, 255]
 
 // ==============================
 
-// 未完待續...
+// Nullable<T> 會將 T 變成 T | null
+type Nullable<T> = { [P in keyof T]: T[P] | null };
+
+interface IPerson {
+    name: string;
+    age: number;
+    address: string;
+}
+
+const person: Nullable<IPerson> = {
+    name: "John",
+    age: 18,
+    address: null,
+};
+
+// 其他的 Utility Types 還有
+// Required<T> 會將 T 的所有屬性變成 required
+// Pick<T, K> 會從 T 中挑選 K 的屬性，例如: Pick<IPerson, "name" | "age">
+// Exclude<T, U> 會從 T 中排除 U 的屬性，例如: Exclude<IPerson, "name" | "age">
+// Extract<T, U> 會從 T 中提取 U 的屬性，例如: Extract<IPerson, "name" | "age">
+// NonNullable<T> 會將 T 變成 T | null | undefined
+// Parameters<T> 會從 T 的函式參數中提取出來
+// ReturnType<T> 會從 T 的函式回傳值中提取出來
+// Omit<T, K> 會從 T 中忽略 K 的屬性，例如: Omit<IPerson, "name" | "age">
+
+// Ref: https://www.typescriptlang.org/docs/handbook/utility-types.html#handbook-content
