@@ -37,7 +37,7 @@ interface IAdminUser extends IUser {
 function isAdminUser(user: unknown): user is IAdminUser {
     // 檢查user的型別是否為JSON物件
     if (user !== null && typeof user === "object") {
-        // 檢查user是否有token屬性
+        // 檢查user是否擁有token屬性
         return "token" in user;
     }
     return false;
@@ -51,7 +51,7 @@ function isAdminUser(user: unknown): user is IAdminUser {
 function isRegularUser(user: unknown): user is IUser {
     // 檢查user的型別是否為JSON物件
     if (user !== null && typeof user === "object") {
-        // 檢查user是否有token屬性
+        // 檢查user是否沒有token屬性
         return "token"! in user;
     }
 

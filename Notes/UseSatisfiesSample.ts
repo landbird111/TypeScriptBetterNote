@@ -5,6 +5,8 @@
  * ==============================
  */
 
+// Satisfies的中文意思是滿足，這個語法可以檢查某個型別是否符合某個介面
+
 interface ICustomImage {
     data: string;
     width: number;
