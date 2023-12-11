@@ -80,12 +80,31 @@ const person: Nullable<IPerson> = {
 
 // 其他的 Utility Types 還有
 // Required<T> 會將 T 的所有屬性變成 required
+
 // Pick<T, K> 會從 T 中挑選 K 的屬性，例如: Pick<IPerson, "name" | "age">
+// Omit<T, K> 會從 T 中忽略 K 的屬性，例如: Omit<IPerson, "name" | "age">
+
 // Exclude<T, U> 會從 T 中排除 U 的屬性，例如: Exclude<IPerson, "name" | "age">
 // Extract<T, U> 會從 T 中提取 U 的屬性，例如: Extract<IPerson, "name" | "age">
+
 // NonNullable<T> 會將 T 變成 T | null | undefined
+
 // Parameters<T> 會從 T 的函式參數中提取出來
+// ConstructorParameters<Type> 會從 Type 的建構子參數中提取出來
+// ThisParameterType<Type> 會從 Type 的 this 參數中提取出來
+// OmitThisParameter<Type> 會從 Type 的 this 參數中忽略出來
+// ThisType<Type> 會從 Type 的 this 型別中提取出來
+
 // ReturnType<T> 會從 T 的函式回傳值中提取出來
-// Omit<T, K> 會從 T 中忽略 K 的屬性，例如: Omit<IPerson, "name" | "age">
+// InstanceType<Type> 會從 Type 的建構子回傳值中提取出來
+
+// UpperCase<T> 會將 T 變成大寫
+// LowerCase<T> 會將 T 變成小寫
+
+// Capitalize<T> 會將 T 變成首字大寫
+// Uncapitalize<T> 會將 T 變成首字小寫
+
+// Awaited<Type> 會將 Type 變成 Promise 的回傳值
+
 
 // Ref: https://www.typescriptlang.org/docs/handbook/utility-types.html#handbook-content
