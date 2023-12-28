@@ -72,7 +72,7 @@ interface IPerson {
     address: string;
 }
 
-const person: Nullable<IPerson> = {
+const personSample: Nullable<IPerson> = {
     name: "John",
     age: 18,
     address: null,
