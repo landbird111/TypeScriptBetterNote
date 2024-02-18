@@ -1,0 +1,17 @@
+{
+    "name": "design-pattern-typescript",
+    "version": "1.0.0",
+    "description": "我有一些C#版本的設計模式的模型，這邊將版本換成TypeScript",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "clean": "rimraf dist"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "rimraf": "^5.0.5"
+    }
+}
