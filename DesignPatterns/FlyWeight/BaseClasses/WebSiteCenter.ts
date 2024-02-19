@@ -1,4 +1,4 @@
-import { UserSample } from "./UserSample";
+import { UserSample } from "../Classes/UserSample";
 
 /**
  * 建立一個網站中心的抽象類別

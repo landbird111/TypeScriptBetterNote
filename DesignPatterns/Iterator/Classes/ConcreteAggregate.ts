@@ -1,4 +1,4 @@
-import { Aggregate } from "./Aggregate";
+import { Aggregate } from "../BaseClasses/Aggregate";
 import { Iterator } from "./Iterator";
 import { ConcreteIteratorAsc } from "./ConcreteIteratorAsc";
 import { IConcreteAggregate } from "../Interfaces/IConcreteAggregate";

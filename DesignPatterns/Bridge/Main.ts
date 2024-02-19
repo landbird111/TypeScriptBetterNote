@@ -24,13 +24,13 @@
 
 // 以下是實例
 // 建立N牌手機的軟體
-import { PhoneBrandN } from "./Classes/PhoneBrandN";
-import { PhoneBrandM } from "./Classes/PhoneBrandM";
-import { PhoneBrandZ } from "./Classes/PhoneBrandZ";
+import { PhoneBrandN } from "./Classes/PhoneBrand/PhoneBrandN";
+import { PhoneBrandM } from "./Classes/PhoneBrand/PhoneBrandM";
+import { PhoneBrandZ } from "./Classes/PhoneBrand/PhoneBrandZ";
 
-import { CellPhoneGame } from "./Classes/CellPhoneGame";
-import { CellPhoneAddressList } from "./Classes/CellPhoneAddressList";
-import { CellPhonePhoto } from "./Classes/CellPhonePhoto";
+import { CellPhoneGame } from "./Classes/CellPhone/CellPhoneGame";
+import { CellPhoneAddressList } from "./Classes/CellPhone/CellPhoneAddressList";
+import { CellPhonePhoto } from "./Classes/CellPhone/CellPhonePhoto";
 
 let phoneN = new PhoneBrandN();
 // 讓N品牌的手機執行遊戲

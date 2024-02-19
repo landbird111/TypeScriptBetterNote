@@ -8,7 +8,7 @@
 //它定義了演算法家族，分別封裝起來，讓它們之間可以互相替換，此模式讓演算法的變化，
 //不會影響到使用演算法的客戶。
 
-import { CashChargeBase } from "./Classes/CashChargeBase";
+import { CashChargeBase } from "./BaseClasses/CashChargeBase";
 import { CashChargeNormal } from "./Classes/CashChargeNormal";
 import { CashChargeRebate } from "./Classes/CashChargeRebate";
 import { CashChargeReturn } from "./Classes/CashChargeReturn";

@@ -1,4 +1,4 @@
-import { Bartender } from "./Bartender";
+import { Bartender } from "../Classes/Bartender";
 
 /**
  * 建立一個命令模式的抽象命令

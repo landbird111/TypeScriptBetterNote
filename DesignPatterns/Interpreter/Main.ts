@@ -11,7 +11,7 @@
 //這樣就可以構建一個解譯器，該解譯器透過解譯這些句子來解決該問題。
 
 import { PlayContext } from "./Classes/PlayContext";
-import { PlayExpression } from "./Classes/PlayExpression";
+import { PlayExpression } from "./BaseClasses/PlayExpression";
 import { PlayScale } from "./Classes/PlayScale";
 import { PlaySpeed } from "./Classes/PlaySpeed";
 import { PlayNote } from "./Classes/PlayNote";

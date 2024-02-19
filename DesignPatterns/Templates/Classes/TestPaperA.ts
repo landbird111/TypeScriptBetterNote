@@ -1,4 +1,4 @@
-import { TestPaperBase } from "./TestPaperBase";
+import { TestPaperBase } from "../BaseClasses/TestPaperBase";
 
 /** 試卷A作答 */
 export class TestPaperA extends TestPaperBase {

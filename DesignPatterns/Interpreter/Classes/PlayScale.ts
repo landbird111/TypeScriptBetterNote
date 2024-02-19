@@ -1,4 +1,4 @@
-import { PlayExpression } from "./PlayExpression";
+import { PlayExpression } from "../BaseClasses/PlayExpression";
 
 /** 音階類別 */
 export class PlayScale extends PlayExpression {

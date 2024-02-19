@@ -1,4 +1,4 @@
-import { Command } from "../Classes/Command";
+import { Command } from "../BaseClasses/Command";
 
 export interface IWaiter {
     /** 收訂單 */

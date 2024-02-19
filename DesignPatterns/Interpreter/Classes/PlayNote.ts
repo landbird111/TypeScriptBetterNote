@@ -1,4 +1,4 @@
-import { PlayExpression } from "./PlayExpression";
+import { PlayExpression } from "../BaseClasses/PlayExpression";
 
 /** 音符類別 */
 export class PlayNote extends PlayExpression {

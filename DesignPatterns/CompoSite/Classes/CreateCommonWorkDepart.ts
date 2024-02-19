@@ -1,4 +1,4 @@
-import { Company } from "./Company";
+import { Company } from "../BaseClasses/Company";
 
 export class CreateCommonWorkDepart extends Company {
     private _Name: string;

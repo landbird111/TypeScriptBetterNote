@@ -1,5 +1,5 @@
-import { VisitorPersonBase } from "./VisitorPersonBase";
-import { VisitorActionBase } from "./VisitorActionBase";
+import { VisitorPersonBase } from "../BaseClasses/VisitorPersonBase";
+import { VisitorActionBase } from "../BaseClasses/VisitorActionBase";
 
 export class VisitorCentroid {
     public elements: VisitorPersonBase[] = [];

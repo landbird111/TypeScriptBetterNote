@@ -11,7 +11,7 @@
 //在程式設計中,有時需要產生大量細粒度的類別實體來表示資料.
 
 import { UserSample } from "./Classes/UserSample";
-import { WebSiteCenter } from "./Classes/WebSiteCenter";
+import { WebSiteCenter } from "./BaseClasses/WebSiteCenter";
 import { WebSiteFactory } from "./Classes/WebSiteFactory";
 
 // 建立一個工廠

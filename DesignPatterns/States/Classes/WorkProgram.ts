@@ -1,4 +1,4 @@
-import { WriteState } from "./WriteState";
+import { WriteState } from "../BaseClasses/WriteState";
 import { IWorkProgram } from "../Interfaces/IWorkProgram";
 import { ForenoonState } from "./ForenoonState";
 

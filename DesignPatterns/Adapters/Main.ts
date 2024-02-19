@@ -8,8 +8,8 @@
 // 將一個類別的介面轉換成客戶希望的另一個介面。
 // Adapter模式使得原本由於介面不相容而不能一起工作的那些類別可以一起工作
 
-import { AdapterTarget } from "./Classes/AdapterTarget";
-import { Adapter } from "./Classes/Adapter";
+import { AdapterTarget } from "./OriginalModule/AdapterTarget";
+import { Adapter } from "./OriginalModule/Adapter";
 
 // 不使用轉接器的實體
 let originalTarget: AdapterTarget = new AdapterTarget();

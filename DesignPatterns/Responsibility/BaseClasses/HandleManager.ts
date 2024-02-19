@@ -1,4 +1,4 @@
-import { OrderRequest } from "./OrderRequest";
+import { OrderRequest } from "../Classes/OrderRequest";
 
 /** 處理的主管 */
 export abstract class HandleManager {

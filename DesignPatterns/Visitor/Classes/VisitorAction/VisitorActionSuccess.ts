@@ -1,6 +1,6 @@
-import { VisitorMan } from "./VisitorMan";
-import { VisitorWoman } from "./VisitorWoman";
-import { VisitorActionBase } from "./VisitorActionBase";
+import { VisitorMan } from "../Visitors/VisitorMan";
+import { VisitorWoman } from "../Visitors/VisitorWoman";
+import { VisitorActionBase } from "../../BaseClasses/VisitorActionBase";
 
 export class VisitorActionSuccess extends VisitorActionBase {
     public GetManConclusion(visitorMan: VisitorMan): string {

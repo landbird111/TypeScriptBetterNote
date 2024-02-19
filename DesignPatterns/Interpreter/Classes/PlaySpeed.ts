@@ -1,4 +1,4 @@
-import { PlayExpression } from "./PlayExpression";
+import { PlayExpression } from "../BaseClasses/PlayExpression";
 
 /** 音速類別 */
 export class PlaySpeed extends PlayExpression {

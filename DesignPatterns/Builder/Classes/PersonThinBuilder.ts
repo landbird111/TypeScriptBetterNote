@@ -1,6 +1,6 @@
 import { SetArea } from "./SetArea";
 import { PaintColor } from "./PaintColor";
-import { PersonBuilder } from "./PersonBuilder";
+import { PersonBuilder } from "../BaseClasses/PersonBuilder";
 
 /**
  * 瘦子建造者

@@ -1,5 +1,5 @@
 import { IUserSample } from "../Interfaces/IUserSample";
-import { WebSiteCenter } from "./WebSiteCenter";
+import { WebSiteCenter } from "../BaseClasses/WebSiteCenter";
 
 export class CreateWebSite extends WebSiteCenter {
     private _webSiteName: string;

@@ -1,7 +1,7 @@
-import { UnitedNations } from "./UnitedNations";
+import { UnitedNations } from "../BaseClasses/UnitedNations";
 import { USACountry } from "./USACountry";
 import { IRAQCountry } from "./IRAQCountry";
-import { Country } from "./Country";
+import { Country } from "../BaseClasses/Country";
 
 /**
  * 實作仲介者 - 聯合國安全理事會

@@ -1,5 +1,5 @@
 import { INotificationSubject } from "../Interfaces/INotificationSubject";
-import { Observer } from "../Classes/Observer";
+import { Observer } from "../BaseClasses/Observer";
 
 /**
  * 公司秘書(具體通知者)

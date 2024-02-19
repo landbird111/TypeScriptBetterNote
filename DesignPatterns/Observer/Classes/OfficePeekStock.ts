@@ -1,4 +1,4 @@
-import { Observer } from "./Observer";
+import { Observer } from "../BaseClasses/Observer";
 import { INotificationSubject } from "../Interfaces/INotificationSubject";
 
 /**

@@ -1,4 +1,4 @@
-import { PhoneBrand } from "./PhoneBrand";
+import { PhoneBrand } from "../../BaseClasses/PhoneBrand";
 
 /**
  * Z牌手機的實體類別

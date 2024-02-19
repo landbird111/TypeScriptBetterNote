@@ -1,4 +1,4 @@
-import { Company } from "./Company";
+import { Company } from "../BaseClasses/Company";
 
 export class CreateCompany extends Company {
     private _companyList: Company[] = [];

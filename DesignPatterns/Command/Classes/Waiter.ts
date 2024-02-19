@@ -1,5 +1,5 @@
 import { IWaiter } from "../Interfaces/IWaiter";
-import { Command } from "./Command";
+import { Command } from "../BaseClasses/Command";
 
 export class Waiter implements IWaiter {
     private _sOrder: Command[] = [];

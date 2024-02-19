@@ -1,4 +1,4 @@
-import { PlayContext } from "./PlayContext";
+import { PlayContext } from "../Classes/PlayContext";
 
 export abstract class PlayExpression {
     public interpret(context: PlayContext): void {

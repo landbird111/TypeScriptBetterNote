@@ -1,6 +1,6 @@
 import { ICountry } from "../Interfaces/ICountry";
-import { UnitedNations } from "./UnitedNations";
-import { Country } from "./Country";
+import { UnitedNations } from "../BaseClasses/UnitedNations";
+import { Country } from "../BaseClasses/Country";
 
 /**
  * 建立一個伊拉克國家

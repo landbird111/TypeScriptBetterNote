@@ -1,4 +1,4 @@
-import { WriteState } from "../Classes/WriteState";
+import { WriteState } from "../BaseClasses/WriteState";
 
 /**
  * 建立一個工作作業的介面

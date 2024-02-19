@@ -1,4 +1,4 @@
-import { HandleManager } from "./HandleManager";
+import { HandleManager } from "../BaseClasses/HandleManager";
 import { OrderRequest } from "./OrderRequest";
 
 /** 總經理, 最大管理者, 末端管理者 */

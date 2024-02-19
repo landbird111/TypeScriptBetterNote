@@ -10,7 +10,7 @@
 
 import { TestPaperA } from "./Classes/TestPaperA";
 import { TestPaperB } from "./Classes/TestPaperB";
-import { TestPaperBase } from "./Classes/TestPaperBase";
+import { TestPaperBase } from "./BaseClasses/TestPaperBase";
 
 let studentA: TestPaperBase = new TestPaperA();
 let studentB: TestPaperBase = new TestPaperB();

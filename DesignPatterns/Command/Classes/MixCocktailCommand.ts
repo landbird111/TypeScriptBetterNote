@@ -1,4 +1,4 @@
-import { Command } from "./Command";
+import { Command } from "../BaseClasses/Command";
 import { Bartender } from "./Bartender";
 
 /**

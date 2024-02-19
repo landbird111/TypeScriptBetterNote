@@ -1,5 +1,5 @@
 import { IWorkProgram } from "../Interfaces/IWorkProgram";
-import { WriteState } from "./WriteState";
+import { WriteState } from "../BaseClasses/WriteState";
 import { SleepingState } from "./SleepingState";
 
 /**

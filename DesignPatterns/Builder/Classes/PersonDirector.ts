@@ -1,5 +1,5 @@
 import { IPersonDirector } from "../Interfaces/IPersonDirector";
-import { PersonBuilder } from "./PersonBuilder";
+import { PersonBuilder } from "../BaseClasses/PersonBuilder";
 
 /**
  * 建立人物的操作者

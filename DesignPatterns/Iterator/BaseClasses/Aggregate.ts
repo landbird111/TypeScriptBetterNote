@@ -1,4 +1,4 @@
-import { Iterator } from './Iterator';
+import { Iterator } from '../Classes/Iterator';
 
 /**
  * 聚合物件的抽象結構

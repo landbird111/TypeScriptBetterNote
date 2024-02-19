@@ -1,4 +1,4 @@
-import { CellphoneSoft } from "./CellphoneSoft";
+import { CellphoneSoft } from "../../BaseClasses/CellphoneSoft";
 
 /**
  * 手機相機，依循軟體這個概念的結構去實作

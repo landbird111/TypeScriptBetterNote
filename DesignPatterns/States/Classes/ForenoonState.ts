@@ -1,5 +1,5 @@
 import { WorkProgram } from "./WorkProgram";
-import { WriteState } from "./WriteState";
+import { WriteState } from "../BaseClasses/WriteState";
 import { NoonState } from "./NoonState";
 
 /**

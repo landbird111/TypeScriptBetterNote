@@ -1,4 +1,4 @@
-import { Company } from "./Company";
+import { Company } from "../BaseClasses/Company";
 
 /** 公司子類別: 訓練部門 */
 export class CreateTrainDepart extends Company {

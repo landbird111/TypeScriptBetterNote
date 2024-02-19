@@ -1,4 +1,4 @@
-import { Observer } from "../Classes/Observer";
+import { Observer } from "../BaseClasses/Observer";
 
 /**
  * 通知者介面

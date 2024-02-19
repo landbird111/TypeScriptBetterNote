@@ -1,4 +1,4 @@
-import { LocalPlayer } from "./LocalPlayer";
+import { LocalPlayer } from "../BaseClasses/LocalPlayer";
 import { ForeignCenterPlayer } from "./ForeignCenterPlayer";
 
 /**

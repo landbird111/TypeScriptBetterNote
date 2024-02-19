@@ -1,4 +1,4 @@
-import { WebSiteCenter } from "./WebSiteCenter";
+import { WebSiteCenter } from "../BaseClasses/WebSiteCenter";
 import { CreateWebSite } from "./CreateWebSite";
 
 export class WebSiteFactory {

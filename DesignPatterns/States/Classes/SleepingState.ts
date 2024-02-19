@@ -1,5 +1,5 @@
 import { IWorkProgram } from "../Interfaces/IWorkProgram";
-import { WriteState } from "./WriteState";
+import { WriteState } from "../BaseClasses/WriteState";
 
 /**
  * 睡眠時段-工作狀態

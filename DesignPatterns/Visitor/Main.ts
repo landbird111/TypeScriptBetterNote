@@ -15,11 +15,11 @@
 //但若是平常類型的，如:男/女的結構，極強的穩定性時，才會考量用到。
 
 import {VisitorCentroid} from './Classes/VisitorCentroid';
-import { VisitorMan } from './Classes/VisitorMan';
-import { VisitorWoman } from './Classes/VisitorWoman';
-import {VisitorActionSuccess} from './Classes/VisitorActionSuccess';
-import {VisitorActionFailed} from './Classes/VisitorActionFailed';
-import {VisitorActionFallInLove} from './Classes/VisitorActionFallInLove';
+import { VisitorMan } from './Classes/Visitors/VisitorMan';
+import { VisitorWoman } from './Classes/Visitors/VisitorWoman';
+import {VisitorActionSuccess} from './Classes/VisitorAction/VisitorActionSuccess';
+import {VisitorActionFailed} from './Classes/VisitorAction/VisitorActionFailed';
+import {VisitorActionFallInLove} from './Classes/VisitorAction/VisitorActionFallInLove';
 
 let centroid: VisitorCentroid = new VisitorCentroid();
 centroid.attach(new VisitorMan());

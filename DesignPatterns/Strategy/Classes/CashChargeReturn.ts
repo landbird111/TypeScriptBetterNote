@@ -1,4 +1,4 @@
-import { CashChargeBase } from "./CashChargeBase";
+import { CashChargeBase } from "../BaseClasses/CashChargeBase";
 
 /**
  * 現金收費返利

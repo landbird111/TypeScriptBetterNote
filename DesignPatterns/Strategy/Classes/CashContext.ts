@@ -1,4 +1,4 @@
-import { CashChargeBase } from "./CashChargeBase";
+import { CashChargeBase } from "../BaseClasses/CashChargeBase";
 
 export class CashContext {
     private cashCharge: CashChargeBase;

@@ -1,6 +1,6 @@
 import { ICountry } from "../Interfaces/ICountry";
-import { Country } from "./Country";
-import { UnitedNations } from "./UnitedNations";
+import { Country } from "../BaseClasses/Country";
+import { UnitedNations } from "../BaseClasses/UnitedNations";
 
 /**
  * 建立一個美國國家
